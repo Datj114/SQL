@@ -1,4 +1,7 @@
-﻿CREATE DATABASE QLNV
+--﻿Bảng Nhân viên: NHANVIEN(MaNV, TenNV, NgaySinh, TrinhDo, ChucVu)
+--Bảng Khóa học: KHOAHOC(MaKH, TenKH, DiaDiem)
+--Bảng Tham gia: THAMGIA(MaNV, MaKH, SoBuoiNghi, KetQua)
+CREATE DATABASE QLNV
 USE  QLNV
 CREATE TABLE NHANVIEN(
 	MANV CHAR(20) NOT NULL PRIMARY KEY,
